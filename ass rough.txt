@@ -1,0 +1,52 @@
+				(1)
+x = 2
+y = 3
+
+print('x =' , x)      
+Ans = 2
+
+print('value of', x, '+', x, 'is', (x + x))    
+Ans = value of 2 + 2 is 4
+
+print('x =') 
+Ans = x =
+
+print(x + y) '=', (y + x))
+Ans = Syntax Error: unmatched ')'
+
+				(2)
+rating = input('Enter an integer rating between 1 and 10')
+Ans = "int" word
+
+				(3)
+if grade >= 90:
+	print (Congratulations! 'Your grade of 91 earns you an A in this course')
+
+				(4)
+for (+):
+27.5 + 2 = 29.5
+
+for (*):
+27.5 * 2 = 55
+
+for (-):
+27.5 - 2 = 25.5
+
+for (/):
+27.5 / 2 = 13.75
+
+for (//):
+27.5 // 2 = 13.30
+
+for (**):
+27.5 ** 2 = 756.25
+
+
+
+				(5)
+
+for the 
+ 
+
+
+        

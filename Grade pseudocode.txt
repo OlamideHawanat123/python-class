@@ -1,0 +1,10 @@
+Ask for ten number
+store the numbers in a variable collectively
+calculate the sum and store in a variable
+calculate the average and store in a variable
+determine the largest number in the number stored collectively
+print the largest number
+determine the smallest number in the number stored collectively
+print the smallest number
+calculate range by deducting the smallest number from the highest number
+print range
