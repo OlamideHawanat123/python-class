@@ -10,7 +10,7 @@ print(reverse_result)
 
 from listp import check
 number = [34, 78, 5, 9, 6, 8]
-check_result = check(number)
+check_result = check(number )
 print(check_result)
 
 from listp import odd

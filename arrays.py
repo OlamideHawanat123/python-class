@@ -63,3 +63,17 @@ def even_numbers(integers):
 		if num % 2 == 0:
 			even_numbers.append(num)
 	return even_numbers  
+
+def odd_numbers(integers):
+	odd_numbers = []
+	for count in integers:
+		if count % 2 == 1:
+			odd_numbers.append(count)
+	return odd_numbers
+
+def squared_numbers(numbers):
+	square = []
+	for count in numbers:
+		square.append(count * count)
+	return square
+
