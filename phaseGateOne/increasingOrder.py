@@ -1,6 +1,6 @@
 first_number = int(input("Enter first number: "))
-second_number = int(input("Enter first number: "))
-third_number = int(input("Enter first number: "))
+second_number = int(input("Enter second number: "))
+third_number = int(input("Enter third number: "))
 
 smallest = first_number
 if second_number < smallest and second_number < third_number:
