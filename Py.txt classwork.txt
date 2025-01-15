@@ -1,0 +1,11 @@
+Create a python function that takes a dollar amount as input and returns the equivalent amount in Nigerian Naira. Assume a fixed exchange rate is 1550 and handle potential rounding errors and other possible issues
+
+ONE_DOLLAR = 1550 
+
+
+def test_correct_value():
+
+
+
+def test_decimal_value():
+def test_not_a_number():
