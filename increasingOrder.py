@@ -1,6 +1,6 @@
 first_number = int(input("Enter first number: "))
-second_number = int(input("Enter second number: "))
-third_number = int(input("Enter third number: "))
+second_number = int(input("Enter first number: "))
+third_number = int(input("Enter first number: "))
 
 smallest = first_number
 if second_number < smallest and second_number < third_number:
@@ -14,7 +14,5 @@ if second_number > largest and second_number > third_number:
 elif third_number > largest:
 	largest = third_number
 
-print(smallest, largest)
+print(smallest, largest)uy
 	
-
- 

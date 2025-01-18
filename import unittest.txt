@@ -1,0 +1,8 @@
+import unittest
+import random
+
+def test_that_random_determines_a_palindrome_number(self):
+	actual = 555
+	expected = true
+	
+	

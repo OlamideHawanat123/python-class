@@ -1,0 +1,8 @@
+def search_for_a_number(number):
+	search = int(input("Enter number you want to search for: ")
+	number = 0
+
+	for char in number:
+		if char == search:
+			number ++
+	return number 
