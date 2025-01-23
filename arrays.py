@@ -77,3 +77,6 @@ def squared_numbers(numbers):
 		square.append(count * count)
 	return square
 
+number = [1, 2, 3, 4, 5]
+print(sum_even(number))
+
