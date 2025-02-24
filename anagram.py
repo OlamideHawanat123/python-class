@@ -5,5 +5,5 @@ def anagram(name_One, name_Two)-> bool:
 		else:
 			return False
 x = "silent"
-y = "listpn"
+y = "listen"
 print(anagram(x, y ))
