@@ -1,6 +1,6 @@
 expenses = [] 
 
-def add_expense():
+def add_expense(*args):
 	date = input("Enter the date(YYYY-MM-DD): ")
 	description = input("Enter the description: ")
 	while True:
@@ -14,7 +14,7 @@ def add_expense():
 		except ValueError:
 			print('Invalid amount, enter a valid input')
 		return display()
-def view_expenses():
+def view_expenses(*args):
 		if not expenses:
 			print("Empty expense list, go add")
 		else:
@@ -23,7 +23,7 @@ def view_expenses():
 				print(f'Date: {count["date"]}, Description: {count["description"]}, Amount: ${count["amount"]:.2f}')
 		return display()
 
-def calculate_total():
+def calculate_total(*args):
 	total = sum(count['amount'] for count in expenses)
 	print(f'total expense: ${total:.2f}')
 	return display()
