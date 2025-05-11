@@ -4,4 +4,4 @@ def farenheit(args):
 
 for celcius in range (0, 100):
 	number = farenheit(celcius)
-print(f' CELCIUS {range}, FARENHEIT {number}')
+print(f' CELCIUS {celcius}, FARENHEIT {number}')

@@ -29,3 +29,6 @@ def exercise(num):
 
 number = [1, 2, 3, 4, 5]
 print(exercise(number))
+
+def the_hours(number):
+	hour i second

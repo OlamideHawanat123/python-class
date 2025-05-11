@@ -1,5 +1,5 @@
 import unittest
-import random
+import normal_number
 
 class TestPalindrome(unittest.TestCase):
 

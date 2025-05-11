@@ -12,7 +12,7 @@ subtotal = 0
 add_more_items = "yes"
 
 while add_more_items.lower() == "yes":
-    user_item = input("What did you want to buy? ")
+    user_item = input("What the customer buy? ")
     quantity = int(input("How many pieces: "))
     price_of_one_item = int(input("How much per unit: "))
     total = quantity * price_of_one_item
@@ -28,7 +28,7 @@ vat = vat_percentage * subtotal
 bill_total = (subtotal - discount) + vat
 
 print("")
-print("SEMICOLON STORES\nMAIN BRANCH\nLOCATION: 312, HERBERT MACAULAY WAY, SABO YABA, LAGOS.\nTEL: 03293828343")
+print("SEMICOLON STORES\nMAIN BRANCH\nLOCATION: 312, HERBERT MACAULAY WAY, SABO YABA, LAGOS.\nTEL: 09138146912")
 print(f"CASHIER: {cashier_name}\nCUSTOMER NAME: {customer_name}\t")
 print(f"DATE: {date}\n")
 print("==========================================")
@@ -59,7 +59,7 @@ else:
 	print("ITEM\tQTY\tPRICE\tTOTAL(NGN)")
 
 	for item, qty, price, item_total in store:
-	    print(f"{item}\t{qty}\t{price}\t{item_total:.2f}")
+		print(f"{item}\t{qty}\t{price}\t{item_total:.2f}")
 	print("-------------------------------------------")
 	print(f"Sub-Total: {subtotal:.2f}")
 	print(f"Discount: {discount:.2f}")

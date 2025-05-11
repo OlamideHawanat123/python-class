@@ -25,7 +25,8 @@ def mark_as_complete():
 			print(f' []{count["tasks"]}')
 	mark_task = int(input("Which task have you completed: "))
 	for count in tasks:
-		print(f'[x] {count["tasks"]}')
+		if mark_task == count:
+			print(f'[x] {count["tasks"]}')  
 	display()
 
 		
@@ -34,11 +35,15 @@ def delete_task():
 	if not tasks:
 		print("You haven't added any task")
 	else:
-		delete_tasks = ("Which task do you wanyt to delete: ")
-		global remove_element
-		remove_element = tasks[delete_tasks]
+		delete_tasks = int(input("Which task do you wanyt to delete: "))
+		remove_element = tasks.remove(tasks[delete_tasks - 1])
 		print("Removed successfully")
-	display()
+
+		print("The new tasks after modification:")
+
+		for count in tasks:
+			print(f' []{count["tasks"]}')
+		display()
 		
 def exit():
 	print("Exiting app, thank you")
