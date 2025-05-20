@@ -1,12 +1,17 @@
-from inspect import stack
-
-
-class Stack:
-    stack = []
-    size = 0
+stack = []
 def is_empty():
     return stack == []
+
 
 def push(element):
     stack.append(element)
 
+
+def pop():
+    stack.pop()
+
+
+def peek():
+    if is_empty():
+        raise IndexError("No element found")
+    return stack[-1]
