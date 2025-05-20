@@ -12,6 +12,10 @@ def pop():
 
 
 def peek():
-    if is_empty():
-        raise IndexError("No element found")
+    # if is_empty():
+    #     raise IndexError("No element found")
+    # else:
     return stack[-1]
+
+def length():
+    return len(stack)

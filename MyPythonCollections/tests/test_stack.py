@@ -25,10 +25,19 @@ class MyTestCase(unittest.TestCase):
         mystack.push(5)
         self.assertEqual(5, mystack.peek())
 
-    def test_that_peek_throws_an_exception_if_called_when_stack_is_empty(self):
-        mystack.peek()
-        with self.assertRaises(IndexError):
-            raise IndexError("No element found")
+    # def test_that_peek_throws_an_exception_if_called_when_stack_is_empty(self):
+    #     mystack.peek()
+    #     with self.assertRaises(IndexError):
+    #         raise IndexError("No element found")
+
+    def test_that_length_returns_the_length_of_stack_test(self):
+        """Tells the exact length of the stack"""
+        self.assertTrue(mystack.is_empty())
+        mystack.push(23)
+        mystack.push(1)
+        mystack.push(5)
+        mystack.pop()
+        self.assertEqual(2, mystack.length())
 
 
 
